@@ -9,16 +9,29 @@ a {
 }
 
 .header {
-    padding: 20px;
+    padding: 60px;
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     color: #ffffff;
 }
 
-.header h1 {
+.header2 {
+    position: absolute;
+    top: 17px;
+    float: left;
+    width: 35%;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    color: #ffffff;
+}
+
+.header2 h1 {
     display: inline-block;
+    float: right;
+    margin-right: 30px;
     font-size: 48px;
-    color: orange;
+    color: black;
 }
 
 .header div {
