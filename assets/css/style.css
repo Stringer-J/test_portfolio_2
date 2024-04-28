@@ -7,13 +7,14 @@
 .header {
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #2a607c;
+    background-color: black;
     color: #ffffff;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: orange;
 }
 
 .header div {
@@ -31,4 +32,14 @@
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    color: orange;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/stockbanner.jpg");
+    background-size: cover;
+    background-position: center;
 }
