@@ -35,14 +35,16 @@ a {
 }
 
 .header div {
-    padding-top: 15px;
-    margin-right: 20px;
+    position: absolute;
+    top: 48px;
+    right: 0;
     float: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
 .header div ul {
+    vertical-align: middle;
     list-style-type: none;
     margin-right: 50px;
 }
@@ -59,4 +61,20 @@ a {
     background-image: url("../images/stockbanner.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.banner2 {
+    position: absolute;
+    top: 330px;
+    right: 50px;
+    width: 35%;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    color: #ffffff;
+}
+
+.banner2 h2 {
+    color: black;
+    text-align: center;
 }
