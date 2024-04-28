@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+a {
+    color: orange;
+}
+
 .header {
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -22,17 +26,17 @@
     margin-right: 20px;
     float: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .header div ul {
     list-style-type: none;
+    margin-right: 50px;
 }
 
 .header div ul li {
     display: inline-block;
-    margin-left: 25px;
-    color: orange;
+    margin-left: 35px;
 }
 
 .banner {
