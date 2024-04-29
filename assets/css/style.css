@@ -17,13 +17,16 @@ a {
 
 .header2 {
     position: absolute;
-    top: 17px;
+    top: 22px;
     float: left;
     width: 35%;
-    padding: 15px;
+    padding: 10px;
+    margin-left: -20px;
     font-family: 'Times New Roman', Times, serif;
     background-color: orange;
     color: #ffffff;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 
 .header2 h1 {
@@ -55,26 +58,109 @@ a {
 }
 
 .banner {
-    height: 300px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/stockbanner.jpg");
     background-size: cover;
     background-position: center;
+    border-bottom: 3px solid black;
 }
 
 .banner2 {
     position: absolute;
-    top: 330px;
+    top: 230px;
     right: 50px;
     width: 35%;
     padding: 15px;
     font-family: 'Times New Roman', Times, serif;
     background-color: orange;
     color: #ffffff;
+    border: 3px solid black;
+    border-radius: 20px;
 }
 
 .banner2 h2 {
     color: black;
     text-align: center;
+    font-size: 30px;
 }
+
+.boxcontainer {
+    float: right;
+    border: 5px solid black;
+    width: 500px;
+    height: 700px;
+    margin-top: -1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+
+.box4, .box5 {
+    position: relative;
+    width: 90%;
+    height: 24%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.box6, .box7, .box8, .box9 {
+    display: inline-block;
+    position: relative;
+    width: 48%;
+    height: 23%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+
+.boxcontainer2 {
+    float: left;
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    margin-top: -1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+
+.box1, .box2, .box3 {
+    position: relative;
+    width: 90%;
+    height: 32%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+/* .box2 {
+    position: relative;
+    width: 90%;
+    height: 32%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.box3 {
+    position: relative;
+    width: 90%;
+    height: 32%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid black;
+} */
+
+/* .tester {
+    padding: 20px;
+    height: 5000px;
+} */
