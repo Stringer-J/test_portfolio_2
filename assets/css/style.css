@@ -102,7 +102,7 @@ a:hover {
 
 .AMleftBox {
     width: 22%;
-    height: 200px;
+    height: 150px;
     font-size: 40px;
     padding-right: 1%;
     color: black;
@@ -112,7 +112,7 @@ a:hover {
 
 .AMrightBox {
     width: 74.6%;
-    height: 200px;
+    height: 150px;
     font-size: 30px;
     margin-left: 1%;
     color: black;
@@ -155,13 +155,32 @@ a:hover {
     border-radius: 10px;
 }
 
+.WorkBox1:hover {
+    border: 10px dotted orange;
+    cursor: pointer;
+}
+
 .smallBanner1 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../images/smallbanner1.avif");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    z-index: 0;
+}
+
+.smallBanner1extra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 1;
+    text-align: center;
 }
 
 .WorkBoxOther {
@@ -174,7 +193,13 @@ a:hover {
     border-radius: 10px;
 }
 
+.WorkBoxOther:hover {
+    border: 10px dotted orange;
+    cursor: pointer;
+}
+
 .smallBanner2 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../images/stockbannerblack.jpg");
@@ -183,7 +208,20 @@ a:hover {
     border-radius: 10px;
 }
 
+.smallBanner2extra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 1;
+    text-align: center;
+}
+
 .smallBanner3 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../images/stockbannerdiamond.jpg");
@@ -192,7 +230,20 @@ a:hover {
     border-radius: 10px;
 }
 
+.smallBanner3extra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 1;
+    text-align: center;
+}
+
 .smallBanner4 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../images/stockbannerpc.jpg");
@@ -201,13 +252,38 @@ a:hover {
     border-radius: 10px;
 }
 
+.smallBanner4extra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 1;
+    text-align: center;
+}
+
 .smallBanner5 {
+    position: relative;
     width: 100%;
     height: 100%;
     background-image: url("../images/stockbannerpurple.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+}
+
+.smallBanner5extra {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    z-index: 1;
+    text-align: center;
 }
 
 .CM-container {
@@ -232,5 +308,56 @@ a:hover {
     font-size: 40px;
     margin-left: 1%;
     color: black;
-    border: 1px solid black;
+    overflow: hidden;
+}
+
+.CMrightBox ul {
+text-align: center;
+}
+
+.CMrightBox ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.CMrightBox ul li a {
+    color: black;
+}
+
+.CMrightBox ul li a:hover {
+    color: blue;
+}
+    
+@media only screen and (max-width: 1120px) {
+
+    .WorkBox1 {
+        width: 99.4%;
+        height: 300px;
+        font-size: 40px;
+        margin: 0px 0px 4px 0px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .WorkBoxOther {
+        width: 99.4%;
+        height: 150px;
+        font-size: 40px;
+        margin: 4px 4px 0px 0px;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .WKleftBox {
+        width: 22%;
+        height: 912px;
+        font-size: 40px;
+        padding-right: 1%;
+        color: black;
+        border-right: 5px solid black;
+        text-align: right;
+    }
+
 }
