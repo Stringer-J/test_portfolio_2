@@ -4,18 +4,22 @@
     margin: 0;
 }
 
+/* makes background of page 'aliceblue' */
 body {
     background-color: aliceblue;
 }
 
+/* makes links 'lightblue' */
 a {
     color: lightblue;
 }
 
+/* makes links turn 'aliceblue' when you hover over them */
 a:hover {
     color: aliceblue;
 }
 
+/* creates the header box */
 .header {
     padding: 60px;
     font-family: 'Times New Roman', Times, serif;
@@ -23,6 +27,7 @@ a:hover {
     color: #ffffff;
 }
 
+/* creates the smaller box in the header */
 .header2 {
     position: absolute;
     top: 22px;
@@ -37,6 +42,7 @@ a:hover {
     border-radius: 20px;
 }
 
+/* formats 'h1' inside of header2 */
 .header2 h1 {
     display: inline-block;
     float: right;
@@ -45,6 +51,7 @@ a:hover {
     color: black;
 }
 
+/* formats 'div' of header */
 .header div {
     position: absolute;
     top: 48px;
@@ -54,17 +61,20 @@ a:hover {
     font-size: 25px;
 }
 
+/* formats the 'ul' of header */
 .header div ul {
     vertical-align: middle;
     list-style-type: none;
     margin-right: 50px;
 }
 
+/* lines up the items in the 'li' */
 .header div ul li {
     display: inline-block;
     margin-left: 35px;
 }
 
+/* adds a banner under the header */
 .banner {
     height: 200px;
     width: 100%;
@@ -75,6 +85,7 @@ a:hover {
     border-bottom: 3px solid black;
 }
 
+/* adds a box with words in the banner */
 .banner2 {
     position: absolute;
     top: 240px;
@@ -88,18 +99,21 @@ a:hover {
     border-radius: 20px;
 }
 
+/* formats 'h2' within banner2 */
 .banner2 h2 {
     color: black;
     text-align: center;
     font-size: 30px;
 }
 
+/* creates container for 'about me' section */
 .AM-container {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
 }
 
+/* creates left box in 'about me' for the title */
 .AMleftBox {
     width: 22%;
     height: 150px;
@@ -110,6 +124,7 @@ a:hover {
     text-align: right;
 }
 
+/* creates right box in 'about me' for the information */
 .AMrightBox {
     width: 74.6%;
     height: 150px;
@@ -118,12 +133,14 @@ a:hover {
     color: black;
 }
 
+/* creates container for the 'work' section */
 .WK-container {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
 }
 
+/* creates left box in work section for the title */
 .WKleftBox {
     width: 22%;
     height: 462px;
@@ -134,6 +151,7 @@ a:hover {
     text-align: right;
 }
 
+/* creates right box in work for the content (5 boxes) */
 .WKrightBox-container {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +163,7 @@ a:hover {
     /* border: 2px solid black; */
 }
 
+/* creates HTML box in work section */
 .WorkBox1 {
     width: 99.4%;
     height: 150px;
@@ -155,11 +174,13 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds border around box when hovering over it */
 .WorkBox1:hover {
     border: 10px dotted orange;
     cursor: pointer;
 }
 
+/* adds image to workbox1 */
 .smallBanner1 {
     position: relative;
     width: 100%;
@@ -171,6 +192,7 @@ a:hover {
     z-index: 0;
 }
 
+/* adds box and text inside smallBanner1 */
 .smallBanner1extra {
     position: absolute;
     bottom: 0;
@@ -183,6 +205,7 @@ a:hover {
     text-align: center;
 }
 
+/* creates smaller boxes (2-5) in work section */
 .WorkBoxOther {
     width: 49.5%;
     height: 150px;
@@ -193,11 +216,13 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds border around box when hovering over it */
 .WorkBoxOther:hover {
     border: 10px dotted orange;
     cursor: pointer;
 }
 
+/* adds image to workbox2 */
 .smallBanner2 {
     position: relative;
     width: 100%;
@@ -208,6 +233,7 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds box and text inside smallBanner2 */
 .smallBanner2extra {
     position: absolute;
     bottom: 0;
@@ -220,6 +246,7 @@ a:hover {
     text-align: center;
 }
 
+/* adds image to workbox3 */
 .smallBanner3 {
     position: relative;
     width: 100%;
@@ -230,6 +257,7 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds box and text inside smallBanner3 */
 .smallBanner3extra {
     position: absolute;
     bottom: 0;
@@ -242,6 +270,7 @@ a:hover {
     text-align: center;
 }
 
+/* adds image to workbox4 */
 .smallBanner4 {
     position: relative;
     width: 100%;
@@ -252,6 +281,7 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds box and text inside smallBanner4 */
 .smallBanner4extra {
     position: absolute;
     bottom: 0;
@@ -264,6 +294,7 @@ a:hover {
     text-align: center;
 }
 
+/* adds image to workbox5 */
 .smallBanner5 {
     position: relative;
     width: 100%;
@@ -274,6 +305,7 @@ a:hover {
     border-radius: 10px;
 }
 
+/* adds box and text inside smallBanner5 */
 .smallBanner5extra {
     position: absolute;
     bottom: 0;
@@ -286,12 +318,14 @@ a:hover {
     text-align: center;
 }
 
+/* creates container for 'contact' section */
 .CM-container {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
 }
 
+/* creates left box in contact section for title */
 .CMleftBox {
     width: 22%;
     height: 75px;
@@ -302,6 +336,7 @@ a:hover {
     text-align: right;
 }
 
+/* creates right box in contact section for links */
 .CMrightBox {
     width: 72.6%;
     height: 75px;
@@ -311,23 +346,28 @@ a:hover {
     overflow: hidden;
 }
 
+/* formats 'ul' in contact right box */
 .CMrightBox ul {
 text-align: center;
 }
 
+/* formats line items in 'ul' in contact right box */
 .CMrightBox ul li {
     display: inline-block;
     padding: 15px;
 }
 
+/* makes links in 'li' black */
 .CMrightBox ul li a {
     color: black;
 }
 
+/* makes links in 'li' blue when hovered over */
 .CMrightBox ul li a:hover {
     color: blue;
 }
     
+/* changes formatting to accommodate screens 1120px and under  */
 @media only screen and (max-width: 1120px) {
 
     .WorkBox1 {
